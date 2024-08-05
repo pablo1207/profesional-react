@@ -1,0 +1,38 @@
+.pagination {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagePagination {
+    font-size: 20px;
+    padding: 0px 8px;
+    cursor: pointer;
+    font-weight: 700px;
+    align-items: center;
+}
+
+.previous,
+.next {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.previous {
+    margin-right: 8px;
+}
+
+.next {
+    margin-left: 8px;
+}
+
+.activePage {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.disabledPage {
+    cursor: not-allowed;
+}
